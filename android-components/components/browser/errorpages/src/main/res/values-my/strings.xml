@@ -158,10 +158,6 @@
         <li>စာမျက်နှာတစ်ခုမျှဖွင့်မရပါက ဝိုင်ဖိုင်ချိတ်ဆက်မှုကိုစစ်ပါ။</li>
       </ul>]]></string>
 
-    <!-- The document title and heading of an error page. -->
-    <string name="mozac_browser_errorpages_no_internet_title">အင်တာနက်ချိတ်ဆက်မှု မရှိပါ</string>
-    <!-- The main body text of this error page. It will be shown beneath the title -->
-    <string name="mozac_browser_errorpages_no_internet_message">သင်၏ကွန်ယက်ချိတ်ဆက်မှုကိုစစ်ဆေးပါ (သို့) အချိန်တိုအတွင်းစာမျက်နှာကိုပြန်ဖွင့်ရန်ကြိုးစားပါ။</string>
     <!-- Text that will show up on the button at the bottom of the error page -->
     <string name="mozac_browser_errorpages_no_internet_refresh_button">ပြန်တင်ပါ</string>
 
@@ -247,4 +243,8 @@
 
     <!-- The title of the error page for websites that do not support HTTPS when HTTPS-Only is turned on -->
     <string name="mozac_browser_errorpages_httpsonly_title">လုံခြုံသောဝဘ်ချိတ်ဆက်မှုမရနိုင်ပါ</string>
-    </resources>
+    <!-- The text of the error page for websites that do not support HTTPS when HTTPS-Only is turned on. %1$s will be replaced with the URL of the website. -->
+    <string name="mozac_browser_errorpages_httpsonly_message"><![CDATA[သင်သည် ပိုမိုကောင်းမွန်သောလုံခြုံမှုအတွက် HTTPS သီးသန့်ပုံစံအားဖွင့်ထားပြီး <em>%1$s</em> ၏ HTTPS ပုံစံသည် မရရှိနိုင်ပါ။]]></string>
+    <!-- Button on error page for websites that do not support HTTPS when HTTPS-Only is turned on. Clicking the button allows the user to nevertheless load the website using HTTP. -->
+    <string name="mozac_browser_errorpages_httpsonly_button">HTTP ဝဘ်သို့ဆက်သွားမည်</string>
+</resources>
